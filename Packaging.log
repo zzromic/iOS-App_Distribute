@@ -1,0 +1,654 @@
+2020-09-28 05:49:06 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa418c4a5a0; archive(resolved)='<IDEArchive: 0x7fa42f23cc80>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa418c4a5a0; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa435a99490; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa42f386480; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa42bf7ab60; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa42f4cbe00; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa42d1dd620; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa434e85bc0; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa4353b1960; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa42e4bd160; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa4348831e0; teamID='L8CQ8M4498', teamName='kun Liu', teamType='Individual', username='liukun@poedata.cn', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa435c873b0; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='(null)'>
+	<IDEDistributionContext: 0x7fa42f309970; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='(null)'>
+	<IDEDistributionContext: 0x7fa42e3b18b0; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa42bcc5e60>', team='(null)'>
+	<IDEDistributionContext: 0x7fa417c5e220; archive = '<IDEArchive: 0x7fa42f23cc80>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa418c4a5a0>
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionCopyItemStep
+2020-09-28 05:49:06 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app'
+2020-09-28 05:49:06 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app 
+2020-09-28 05:49:06 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  25903 bytes for ./_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./hotcitys.json ... 
+2020-09-28 05:49:06 +0000  871 bytes for ./hotcitys.json
+2020-09-28 05:49:06 +0000  copying file ./DEStageData_KeSan.json ... 
+2020-09-28 05:49:06 +0000  3048 bytes for ./DEStageData_KeSan.json
+copying file ./unicode_to_hanyu_pinyin.txt ... 
+2020-09-28 05:49:06 +0000  286446 bytes for ./unicode_to_hanyu_pinyin.txt
+2020-09-28 05:49:06 +0000  copying file ./citys.json ... 
+2020-09-28 05:49:06 +0000  74740 bytes for ./citys.json
+2020-09-28 05:49:06 +0000  copying file ./DEStageData_KeYi.json ... 
+2020-09-28 05:49:06 +0000  2958 bytes for ./DEStageData_KeYi.json
+2020-09-28 05:49:06 +0000  copying file ./DriveExamination ... 
+2020-09-28 05:49:06 +0000  21358096 bytes for ./DriveExamination
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+2020-09-28 05:49:06 +0000  896 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2020-09-28 05:49:06 +0000  896 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+2020-09-28 05:49:06 +0000  1448 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2020-09-28 05:49:06 +0000  2305 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-09-28 05:49:06 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-09-28 05:49:06 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-09-28 05:49:06 +0000  2054 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-09-28 05:49:06 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-09-28 05:49:06 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-09-28 05:49:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-09-28 05:49:06 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./DEStageData_KeSi.json ... 
+2020-09-28 05:49:06 +0000  2955 bytes for ./DEStageData_KeSi.json
+copying file ./Assets.car ... 
+2020-09-28 05:49:06 +0000  7668456 bytes for ./Assets.car
+2020-09-28 05:49:06 +0000  copying file ./bus-202008191439.db ... 
+2020-09-28 05:49:06 +0000  10049536 bytes for ./bus-202008191439.db
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/Masonry.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/Masonry.framework/Masonry ... 
+2020-09-28 05:49:06 +0000  1348368 bytes for ./Frameworks/Masonry.framework/Masonry
+copying file ./Frameworks/Masonry.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  736 bytes for ./Frameworks/Masonry.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/Toast.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/Toast.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/Toast.framework/Toast ... 
+2020-09-28 05:49:06 +0000  703072 bytes for ./Frameworks/Toast.framework/Toast
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/Toast.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  732 bytes for ./Frameworks/Toast.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/YYText.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/YYText.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/YYText.framework/YYText ... 
+2020-09-28 05:49:06 +0000  6919920 bytes for ./Frameworks/YYText.framework/YYText
+copying file ./Frameworks/YYText.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  734 bytes for ./Frameworks/YYText.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  5706 bytes for ./Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD ... 
+2020-09-28 05:49:06 +0000  1263808 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png ... 
+365 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png ... 
+2020-09-28 05:49:06 +0000  398 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2020-09-28 05:49:06 +0000  8319 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png ... 
+4893 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png ... 
+2020-09-28 05:49:06 +0000  306 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png ... 
+2020-09-28 05:49:06 +0000  1200 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png ... 
+2020-09-28 05:49:06 +0000  462 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png ... 
+2020-09-28 05:49:06 +0000  714 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png ... 
+2020-09-28 05:49:06 +0000  816 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png ... 
+2020-09-28 05:49:06 +0000  184 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png ... 
+2020-09-28 05:49:06 +0000  262 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png ... 
+2020-09-28 05:49:06 +0000  1845 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SVProgressHUD.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  748 bytes for ./Frameworks/SVProgressHUD.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SDCycleScrollView.framework/SDCycleScrollView ... 
+2020-09-28 05:49:06 +0000  1141024 bytes for ./Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+copying file ./Frameworks/SDCycleScrollView.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  759 bytes for ./Frameworks/SDCycleScrollView.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2020-09-28 05:49:06 +0000  6688656 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  742 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/sqliterk.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/sqliterk.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/sqliterk.framework/sqliterk ... 
+2020-09-28 05:49:06 +0000  1002896 bytes for ./Frameworks/sqliterk.framework/sqliterk
+copying file ./Frameworks/sqliterk.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  738 bytes for ./Frameworks/sqliterk.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/sqlcipher.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/sqlcipher.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/sqlcipher.framework/sqlcipher ... 
+2020-09-28 05:49:06 +0000  10478912 bytes for ./Frameworks/sqlcipher.framework/sqlcipher
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/sqlcipher.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  740 bytes for ./Frameworks/sqlcipher.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/WCDB.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  1798 bytes for ./Frameworks/WCDB.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/WCDB.framework/WCDB ... 
+2020-09-28 05:49:06 +0000  14314448 bytes for ./Frameworks/WCDB.framework/WCDB
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/WCDB.framework/Info.plist ... 
+730 bytes for ./Frameworks/WCDB.framework/Info.plist
+copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2020-09-28 05:49:06 +0000  3304976 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+2020-09-28 05:49:06 +0000  746 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/QMUIKit.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:06 +0000  2446 bytes for ./Frameworks/QMUIKit.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/QMUIKit.framework/QMUIKit ... 
+2020-09-28 05:49:06 +0000  27291072 bytes for ./Frameworks/QMUIKit.framework/QMUIKit
+2020-09-28 05:49:06 +0000  copying file ./Frameworks/QMUIKit.framework/QMUIResources.bundle/Assets.car ... 
+2020-09-28 05:49:06 +0000  501176 bytes for ./Frameworks/QMUIKit.framework/QMUIResources.bundle/Assets.car
+copying file ./Frameworks/QMUIKit.framework/QMUIResources.bundle/Info.plist ... 
+2020-09-28 05:49:06 +0000  724 bytes for ./Frameworks/QMUIKit.framework/QMUIResources.bundle/Info.plist
+copying file ./Frameworks/QMUIKit.framework/Info.plist ... 
+737 bytes for ./Frameworks/QMUIKit.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+15876 bytes for ./embedded.mobileprovision
+2020-09-28 05:49:06 +0000  copying file ./Info.plist ... 
+2020-09-28 05:49:06 +0000  1405 bytes for ./Info.plist
+copying file ./DEStageData_KeEr.json ... 
+2020-09-28 05:49:06 +0000  3310 bytes for ./DEStageData_KeEr.json
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2020-09-28 05:49:06 +0000  /usr/bin/ditto exited with 0
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42d6f6820; bundleID='com.alamofire.AFNetworking', path='<DVTFilePath:0x7fa42f1455c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42f8202e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='com.alamofire.AFNetworking', executablePath='<DVTFilePath:0x7fa42f148670:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa437082f60; bundleID='org.cocoapods.Masonry', path='<DVTFilePath:0x7fa435ae35b0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d2b8110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Masonry', executablePath='<DVTFilePath:0x7fa4188a23e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework/Masonry'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42f713d00; bundleID='org.cocoapods.QMUIKit', path='<DVTFilePath:0x7fa42f14a850:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417c74b40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa435b053f0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.QMUIKit', executablePath='<DVTFilePath:0x7fa42f14e0e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42f8008d0; bundleID='org.cocoapods.SDCycleScrollView', path='<DVTFilePath:0x7fa41890b5a0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417f30f90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f088910; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDCycleScrollView', executablePath='<DVTFilePath:0x7fa42e6e67e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42d14a280; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fa42e6e8980:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d9a4cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fa42e6ec3c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42b5a5ef0; bundleID='org.cocoapods.SVProgressHUD', path='<DVTFilePath:0x7fa435aeb380:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa430438270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SVProgressHUD', executablePath='<DVTFilePath:0x7fa435ac9990:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa418919290; bundleID='org.cocoapods.Toast', path='<DVTFilePath:0x7fa42f0dbcb0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa434bdc7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Toast', executablePath='<DVTFilePath:0x7fa42f0cffd0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework/Toast'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa41888de30; bundleID='org.cocoapods.WCDB', path='<DVTFilePath:0x7fa417c09e80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa435899be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa435b053f0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.WCDB', executablePath='<DVTFilePath:0x7fa418a06d80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework/WCDB'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa42b371df0; bundleID='org.cocoapods.YYText', path='<DVTFilePath:0x7fa417c11760:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418861290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.YYText', executablePath='<DVTFilePath:0x7fa435ae5e60:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework/YYText'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa435f15310; bundleID='org.cocoapods.sqlcipher', path='<DVTFilePath:0x7fa42e6f4890:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418a22a50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqlcipher', executablePath='<DVTFilePath:0x7fa42e6f7860:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa435c52100; bundleID='org.cocoapods.sqliterk', path='<DVTFilePath:0x7fa42e6eef30:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418891890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f434b50; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqliterk', executablePath='<DVTFilePath:0x7fa42e6f1e90:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionSymbolsStep
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionAppThinningStep
+2020-09-28 05:49:06 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-09-28 05:49:06 +0000  Processing step: IDEDistributionArchThinningStep
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "AFNetworking" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Masonry.framework/Masonry' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "Masonry" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "QMUIKit" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "SDCycleScrollView" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "SDWebImage" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "SVProgressHUD" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Toast.framework/Toast' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "Toast" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/WCDB.framework/WCDB' '-verify_arch' 'arm64e'
+2020-09-28 05:49:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:06 +0000  Skipping architecture thinning for item "WCDB" because arch "arm64e" wasn't found
+2020-09-28 05:49:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/YYText.framework/YYText' '-verify_arch' 'arm64e'
+2020-09-28 05:49:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:07 +0000  Skipping architecture thinning for item "YYText" because arch "arm64e" wasn't found
+2020-09-28 05:49:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher' '-verify_arch' 'arm64e'
+2020-09-28 05:49:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:07 +0000  Skipping architecture thinning for item "sqlcipher" because arch "arm64e" wasn't found
+2020-09-28 05:49:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk' '-verify_arch' 'arm64e'
+2020-09-28 05:49:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:07 +0000  Skipping architecture thinning for item "sqliterk" because arch "arm64e" wasn't found
+2020-09-28 05:49:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/DriveExamination' '-verify_arch' 'arm64e'
+2020-09-28 05:49:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-28 05:49:07 +0000  Skipping architecture thinning for item "DriveExamination" because arch "arm64e" wasn't found
+2020-09-28 05:49:07 +0000  Processing step: IDEDistributionODRStep
+2020-09-28 05:49:07 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42d6f6820; bundleID='com.alamofire.AFNetworking', path='<DVTFilePath:0x7fa42f1455c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42f8202e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='com.alamofire.AFNetworking', executablePath='<DVTFilePath:0x7fa42f148670:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa437082f60; bundleID='org.cocoapods.Masonry', path='<DVTFilePath:0x7fa435ae35b0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d2b8110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Masonry', executablePath='<DVTFilePath:0x7fa4188a23e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework/Masonry'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42f713d00; bundleID='org.cocoapods.QMUIKit', path='<DVTFilePath:0x7fa42f14a850:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417c74b40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.QMUIKit', executablePath='<DVTFilePath:0x7fa42f14e0e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42f8008d0; bundleID='org.cocoapods.SDCycleScrollView', path='<DVTFilePath:0x7fa41890b5a0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417f30f90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f54c970; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDCycleScrollView', executablePath='<DVTFilePath:0x7fa42e6e67e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42d14a280; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fa42e6e8980:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d9a4cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fa42e6ec3c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42b5a5ef0; bundleID='org.cocoapods.SVProgressHUD', path='<DVTFilePath:0x7fa435aeb380:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa430438270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SVProgressHUD', executablePath='<DVTFilePath:0x7fa435ac9990:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa418919290; bundleID='org.cocoapods.Toast', path='<DVTFilePath:0x7fa42f0dbcb0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa434bdc7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f54c970; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Toast', executablePath='<DVTFilePath:0x7fa42f0cffd0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework/Toast'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa41888de30; bundleID='org.cocoapods.WCDB', path='<DVTFilePath:0x7fa417c09e80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa435899be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.WCDB', executablePath='<DVTFilePath:0x7fa418a06d80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework/WCDB'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa42b371df0; bundleID='org.cocoapods.YYText', path='<DVTFilePath:0x7fa417c11760:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418861290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.YYText', executablePath='<DVTFilePath:0x7fa435ae5e60:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework/YYText'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa435f15310; bundleID='org.cocoapods.sqlcipher', path='<DVTFilePath:0x7fa42e6f4890:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418a22a50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqlcipher', executablePath='<DVTFilePath:0x7fa42e6f7860:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa435c52100; bundleID='org.cocoapods.sqliterk', path='<DVTFilePath:0x7fa42e6eef30:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418891890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42bbeb650; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqliterk', executablePath='<DVTFilePath:0x7fa42e6f1e90:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk'>', hardenedRuntime='0'>'>
+2020-09-28 05:49:07 +0000  Running /usr/bin/xattr '-crs' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app'
+2020-09-28 05:49:07 +0000  /usr/bin/xattr exited with 0
+2020-09-28 05:49:07 +0000  Processing step: IDEDistributionCodesignStep
+2020-09-28 05:49:07 +0000  Entitlements for <IDEDistributionItem: 0x7fa42d6f6820; bundleID='com.alamofire.AFNetworking', path='<DVTFilePath:0x7fa42f1455c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42f8202e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='com.alamofire.AFNetworking', executablePath='<DVTFilePath:0x7fa42f148670:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42d6f6820; bundleID='com.alamofire.AFNetworking', path='<DVTFilePath:0x7fa42f1455c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42f8202e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa418a70de0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='com.alamofire.AFNetworking', executablePath='<DVTFilePath:0x7fa42f148670:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~VIOzeA
+2020-09-28 05:49:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~VIOzeA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/AFNetworking.framework'
+2020-09-28 05:49:07 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [com.alamofire.AFNetworking]
+2020-09-28 05:49:07 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:07 +0000  Entitlements for <IDEDistributionItem: 0x7fa437082f60; bundleID='org.cocoapods.Masonry', path='<DVTFilePath:0x7fa435ae35b0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d2b8110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Masonry', executablePath='<DVTFilePath:0x7fa4188a23e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework/Masonry'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa437082f60; bundleID='org.cocoapods.Masonry', path='<DVTFilePath:0x7fa435ae35b0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d2b8110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Masonry', executablePath='<DVTFilePath:0x7fa4188a23e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Masonry.framework/Masonry'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~SgrD4J
+2020-09-28 05:49:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~SgrD4J' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Masonry.framework'
+2020-09-28 05:49:07 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Masonry.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Masonry]
+2020-09-28 05:49:07 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:07 +0000  Entitlements for <IDEDistributionItem: 0x7fa42f713d00; bundleID='org.cocoapods.QMUIKit', path='<DVTFilePath:0x7fa42f14a850:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417c74b40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.QMUIKit', executablePath='<DVTFilePath:0x7fa42f14e0e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42f713d00; bundleID='org.cocoapods.QMUIKit', path='<DVTFilePath:0x7fa42f14a850:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417c74b40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42d1cdfe0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.QMUIKit', executablePath='<DVTFilePath:0x7fa42f14e0e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~v1xkIi
+2020-09-28 05:49:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~v1xkIi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/QMUIKit.framework'
+2020-09-28 05:49:07 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/QMUIKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.QMUIKit]
+2020-09-28 05:49:07 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:07 +0000  Entitlements for <IDEDistributionItem: 0x7fa42f8008d0; bundleID='org.cocoapods.SDCycleScrollView', path='<DVTFilePath:0x7fa41890b5a0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417f30f90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDCycleScrollView', executablePath='<DVTFilePath:0x7fa42e6e67e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42f8008d0; bundleID='org.cocoapods.SDCycleScrollView', path='<DVTFilePath:0x7fa41890b5a0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa417f30f90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDCycleScrollView', executablePath='<DVTFilePath:0x7fa42e6e67e0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~JFUCkp
+2020-09-28 05:49:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~JFUCkp' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework'
+2020-09-28 05:49:07 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDCycleScrollView]
+2020-09-28 05:49:07 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:07 +0000  Entitlements for <IDEDistributionItem: 0x7fa42d14a280; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fa42e6e8980:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d9a4cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fa42e6ec3c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42d14a280; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fa42e6e8980:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42d9a4cf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f289dc0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fa42e6ec3c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~IO2pek
+2020-09-28 05:49:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~IO2pek' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDWebImage.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDWebImage]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa42b5a5ef0; bundleID='org.cocoapods.SVProgressHUD', path='<DVTFilePath:0x7fa435aeb380:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa430438270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SVProgressHUD', executablePath='<DVTFilePath:0x7fa435ac9990:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42b5a5ef0; bundleID='org.cocoapods.SVProgressHUD', path='<DVTFilePath:0x7fa435aeb380:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa430438270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa418c55e80; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.SVProgressHUD', executablePath='<DVTFilePath:0x7fa435ac9990:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~jKFSj7
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~jKFSj7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SVProgressHUD]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa418919290; bundleID='org.cocoapods.Toast', path='<DVTFilePath:0x7fa42f0dbcb0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa434bdc7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa418c55e80; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Toast', executablePath='<DVTFilePath:0x7fa42f0cffd0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework/Toast'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa418919290; bundleID='org.cocoapods.Toast', path='<DVTFilePath:0x7fa42f0dbcb0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa434bdc7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42d005dd0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.Toast', executablePath='<DVTFilePath:0x7fa42f0cffd0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/Toast.framework/Toast'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~DeOSHb
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~DeOSHb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Toast.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/Toast.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Toast]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa41888de30; bundleID='org.cocoapods.WCDB', path='<DVTFilePath:0x7fa417c09e80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa435899be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42f0d5e30; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.WCDB', executablePath='<DVTFilePath:0x7fa418a06d80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework/WCDB'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa41888de30; bundleID='org.cocoapods.WCDB', path='<DVTFilePath:0x7fa417c09e80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa435899be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42d1cdfe0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.WCDB', executablePath='<DVTFilePath:0x7fa418a06d80:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/WCDB.framework/WCDB'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~ZTVUcm
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~ZTVUcm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/WCDB.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/WCDB.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.WCDB]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa42b371df0; bundleID='org.cocoapods.YYText', path='<DVTFilePath:0x7fa417c11760:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418861290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.YYText', executablePath='<DVTFilePath:0x7fa435ae5e60:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework/YYText'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42b371df0; bundleID='org.cocoapods.YYText', path='<DVTFilePath:0x7fa417c11760:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418861290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa42bbeb650; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.YYText', executablePath='<DVTFilePath:0x7fa435ae5e60:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/YYText.framework/YYText'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~GEAhJu
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~GEAhJu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/YYText.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/YYText.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.YYText]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa435f15310; bundleID='org.cocoapods.sqlcipher', path='<DVTFilePath:0x7fa42e6f4890:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418a22a50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqlcipher', executablePath='<DVTFilePath:0x7fa42e6f7860:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa435f15310; bundleID='org.cocoapods.sqlcipher', path='<DVTFilePath:0x7fa42e6f4890:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418a22a50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa417f90040; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqlcipher', executablePath='<DVTFilePath:0x7fa42e6f7860:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~Jex0j4
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~Jex0j4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqlcipher.framework'
+2020-09-28 05:49:08 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqlcipher.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.sqlcipher]
+2020-09-28 05:49:08 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:08 +0000  Entitlements for <IDEDistributionItem: 0x7fa435c52100; bundleID='org.cocoapods.sqliterk', path='<DVTFilePath:0x7fa42e6eef30:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418891890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa41892aa10; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqliterk', executablePath='<DVTFilePath:0x7fa42e6f1e90:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk'>', hardenedRuntime='0'>'>: {
+}
+2020-09-28 05:49:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa435c52100; bundleID='org.cocoapods.sqliterk', path='<DVTFilePath:0x7fa42e6eef30:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa418891890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa418c55e80; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='(null)', teamID='L8CQ8M4498', identifier='org.cocoapods.sqliterk', executablePath='<DVTFilePath:0x7fa42e6f1e90:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~9fxlAz
+2020-09-28 05:49:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~9fxlAz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqliterk.framework'
+2020-09-28 05:49:09 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app/Frameworks/sqliterk.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.sqliterk]
+2020-09-28 05:49:09 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:09 +0000  Entitlements for <IDEDistributionItem: 0x7fa42b337760; bundleID='cn.cnjihui.DriveExamination.test', path='<DVTFilePath:0x7fa42f23c2c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42b3fbfd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa418c55e80; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='{
+    "application-identifier" = "L8CQ8M4498.cn.cnjihui.DriveExamination.test";
+    "com.apple.developer.team-identifier" = L8CQ8M4498;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "L8CQ8M4498.cn.cnjihui.DriveExamination.test"
+    );
+}', teamID='L8CQ8M4498', identifier='cn.cnjihui.DriveExamination.test', executablePath='<DVTFilePath:0x7fa435ac5840:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/DriveExamination'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "L8CQ8M4498.cn.cnjihui.DriveExamination.test";
+    "com.apple.developer.team-identifier" = L8CQ8M4498;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "L8CQ8M4498.cn.cnjihui.DriveExamination.test"
+    );
+}
+2020-09-28 05:49:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa42b337760; bundleID='cn.cnjihui.DriveExamination.test', path='<DVTFilePath:0x7fa42f23c2c0:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa42b3fbfd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa417c7e8e0; name='Apple Development: kun Liu (C9GB2B6JGS)', hash='F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C', serialNumber='2BB8131381FF0BA9', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-11 09:15:59 +0000''>', entitlements='{
+    "application-identifier" = "L8CQ8M4498.cn.cnjihui.DriveExamination.test";
+    "com.apple.developer.team-identifier" = L8CQ8M4498;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "L8CQ8M4498.cn.cnjihui.DriveExamination.test"
+    );
+}', teamID='L8CQ8M4498', identifier='cn.cnjihui.DriveExamination.test', executablePath='<DVTFilePath:0x7fa435ac5840:'/Users/apple/Library/Developer/Xcode/Archives/2020-09-21/DriveExamination 2020-9-21, 9.24 AM.xcarchive/Products/Applications/DriveExamination.app/DriveExamination'>', hardenedRuntime='0'>'> to: /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~oJp8R1
+2020-09-28 05:49:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F15210ADFC78FF3BC5C3B6DA3521ADDF66A62F7C' '--entitlements' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/entitlements~~~oJp8R1' '--preserve-metadata=identifier,flags,runtime' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app'
+2020-09-28 05:49:09 +0000  /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root/Payload/DriveExamination.app: signed app bundle with Mach-O universal (armv7 arm64) [cn.cnjihui.DriveExamination.test]
+2020-09-28 05:49:09 +0000  /usr/bin/codesign exited with 0
+2020-09-28 05:49:09 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-28 05:49:09 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-09-28 05:49:09 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root' '/var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Packages/DriveExamination.ipa'
+2020-09-28 05:49:09 +0000  >>> Copying /var/folders/_d/rmyfnkln3v942y1fd8325r600000gn/T/XcodeDistPipeline.~~~TifFcb/Root 
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:09 +0000  25903 bytes for ./Payload/DriveExamination.app/_CodeSignature/CodeResources
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/hotcitys.json ... 
+871 bytes for ./Payload/DriveExamination.app/hotcitys.json
+copying file ./Payload/DriveExamination.app/DEStageData_KeSan.json ... 
+2020-09-28 05:49:09 +0000  3048 bytes for ./Payload/DriveExamination.app/DEStageData_KeSan.json
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/unicode_to_hanyu_pinyin.txt ... 
+2020-09-28 05:49:09 +0000  286446 bytes for ./Payload/DriveExamination.app/unicode_to_hanyu_pinyin.txt
+copying file ./Payload/DriveExamination.app/citys.json ... 
+2020-09-28 05:49:09 +0000  74740 bytes for ./Payload/DriveExamination.app/citys.json
+copying file ./Payload/DriveExamination.app/DEStageData_KeYi.json ... 
+2020-09-28 05:49:09 +0000  2958 bytes for ./Payload/DriveExamination.app/DEStageData_KeYi.json
+copying file ./Payload/DriveExamination.app/DriveExamination ... 
+2020-09-28 05:49:09 +0000  3304256 bytes for ./Payload/DriveExamination.app/DriveExamination
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+896 bytes for ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+896 bytes for ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+1448 bytes for ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2305 bytes for ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/DriveExamination.app/Base.lproj/Main.storyboardc/Info.plist
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-09-28 05:49:09 +0000  1197 bytes for ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-09-28 05:49:09 +0000  2054 bytes for ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+896 bytes for ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-09-28 05:49:09 +0000  896 bytes for ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-09-28 05:49:09 +0000  258 bytes for ./Payload/DriveExamination.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-09-28 05:49:09 +0000  copying file ./Payload/DriveExamination.app/DEStageData_KeSi.json ... 
+2020-09-28 05:49:09 +0000  2955 bytes for ./Payload/DriveExamination.app/DEStageData_KeSi.json
+copying file ./Payload/DriveExamination.app/Assets.car ... 
+2020-09-28 05:49:09 +0000  7668456 bytes for ./Payload/DriveExamination.app/Assets.car
+copying file ./Payload/DriveExamination.app/bus-202008191439.db ... 
+2020-09-28 05:49:10 +0000  10049536 bytes for ./Payload/DriveExamination.app/bus-202008191439.db
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/DriveExamination.app/Frameworks/Masonry.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/Masonry.framework/Masonry ... 
+2020-09-28 05:49:10 +0000  425552 bytes for ./Payload/DriveExamination.app/Frameworks/Masonry.framework/Masonry
+copying file ./Payload/DriveExamination.app/Frameworks/Masonry.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  736 bytes for ./Payload/DriveExamination.app/Frameworks/Masonry.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/Toast.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:10 +0000  1798 bytes for ./Payload/DriveExamination.app/Frameworks/Toast.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/Toast.framework/Toast ... 
+2020-09-28 05:49:10 +0000  274880 bytes for ./Payload/DriveExamination.app/Frameworks/Toast.framework/Toast
+copying file ./Payload/DriveExamination.app/Frameworks/Toast.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  732 bytes for ./Payload/DriveExamination.app/Frameworks/Toast.framework/Info.plist
+copying file ./Payload/DriveExamination.app/Frameworks/YYText.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/DriveExamination.app/Frameworks/YYText.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/YYText.framework/YYText ... 
+2020-09-28 05:49:10 +0000  1776800 bytes for ./Payload/DriveExamination.app/Frameworks/YYText.framework/YYText
+copying file ./Payload/DriveExamination.app/Frameworks/YYText.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  734 bytes for ./Payload/DriveExamination.app/Frameworks/YYText.framework/Info.plist
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources ... 
+5706 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD ... 
+2020-09-28 05:49:10 +0000  406944 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png ... 
+2020-09-28 05:49:10 +0000  365 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png ... 
+398 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2020-09-28 05:49:10 +0000  8319 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png ... 
+2020-09-28 05:49:10 +0000  4893 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png ... 
+2020-09-28 05:49:10 +0000  306 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png ... 
+2020-09-28 05:49:10 +0000  1200 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png ... 
+2020-09-28 05:49:10 +0000  462 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png ... 
+2020-09-28 05:49:10 +0000  714 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png ... 
+2020-09-28 05:49:10 +0000  816 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png ... 
+2020-09-28 05:49:10 +0000  184 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png ... 
+2020-09-28 05:49:10 +0000  262 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png
+copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png ... 
+2020-09-28 05:49:10 +0000  1845 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  748 bytes for ./Payload/DriveExamination.app/Frameworks/SVProgressHUD.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:10 +0000  1798 bytes for ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView ... 
+2020-09-28 05:49:10 +0000  366496 bytes for ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/SDCycleScrollView
+copying file ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  759 bytes for ./Payload/DriveExamination.app/Frameworks/SDCycleScrollView.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:10 +0000  1798 bytes for ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2020-09-28 05:49:10 +0000  1577888 bytes for ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/SDWebImage
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/Info.plist ... 
+742 bytes for ./Payload/DriveExamination.app/Frameworks/SDWebImage.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:10 +0000  1798 bytes for ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk ... 
+2020-09-28 05:49:10 +0000  360272 bytes for ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/sqliterk
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/Info.plist ... 
+738 bytes for ./Payload/DriveExamination.app/Frameworks/sqliterk.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/_CodeSignature/CodeResources ... 
+2020-09-28 05:49:10 +0000  1798 bytes for ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher ... 
+2020-09-28 05:49:10 +0000  2153088 bytes for ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/sqlcipher
+copying file ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  740 bytes for ./Payload/DriveExamination.app/Frameworks/sqlcipher.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/WCDB.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/DriveExamination.app/Frameworks/WCDB.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/WCDB.framework/WCDB ... 
+2020-09-28 05:49:10 +0000  3581792 bytes for ./Payload/DriveExamination.app/Frameworks/WCDB.framework/WCDB
+copying file ./Payload/DriveExamination.app/Frameworks/WCDB.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  730 bytes for ./Payload/DriveExamination.app/Frameworks/WCDB.framework/Info.plist
+copying file ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+copying file ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2020-09-28 05:49:10 +0000  963984 bytes for ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/Info.plist ... 
+2020-09-28 05:49:10 +0000  746 bytes for ./Payload/DriveExamination.app/Frameworks/AFNetworking.framework/Info.plist
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/_CodeSignature/CodeResources ... 
+2446 bytes for ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/_CodeSignature/CodeResources
+2020-09-28 05:49:10 +0000  copying file ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit ... 
+2020-09-28 05:49:11 +0000  6353472 bytes for ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIKit
+2020-09-28 05:49:11 +0000  copying file ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIResources.bundle/Assets.car ... 
+2020-09-28 05:49:11 +0000  501176 bytes for ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIResources.bundle/Assets.car
+copying file ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIResources.bundle/Info.plist ... 
+2020-09-28 05:49:11 +0000  724 bytes for ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/QMUIResources.bundle/Info.plist
+copying file ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/Info.plist ... 
+2020-09-28 05:49:11 +0000  737 bytes for ./Payload/DriveExamination.app/Frameworks/QMUIKit.framework/Info.plist
+copying file ./Payload/DriveExamination.app/embedded.mobileprovision ... 
+2020-09-28 05:49:11 +0000  15876 bytes for ./Payload/DriveExamination.app/embedded.mobileprovision
+copying file ./Payload/DriveExamination.app/Info.plist ... 
+2020-09-28 05:49:11 +0000  1405 bytes for ./Payload/DriveExamination.app/Info.plist
+2020-09-28 05:49:11 +0000  copying file ./Payload/DriveExamination.app/DEStageData_KeEr.json ... 
+2020-09-28 05:49:11 +0000  3310 bytes for ./Payload/DriveExamination.app/DEStageData_KeEr.json
+copying file ./Payload/DriveExamination.app/PkgInfo ... 
+2020-09-28 05:49:11 +0000  8 bytes for ./Payload/DriveExamination.app/PkgInfo
+2020-09-28 05:49:11 +0000  /usr/bin/ditto exited with 0
+2020-09-28 05:49:11 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-09-28 05:49:11 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-09-28 05:49:11 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-09-28 05:49:11 +0000  Processing step: IDEDistributionCreateManifestStep
